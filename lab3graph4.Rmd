@@ -13,3 +13,7 @@ library(ggplot2)
 library(dplyr)
 ```
 
+```{r}
+ggplot(data = cereal, mapping = aes(x = mfr, y = carbo)) + geom_bar(stat="identity")
+
+```
